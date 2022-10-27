@@ -1,38 +1,69 @@
-.App {
-  text-align: center;
+.background{
+  height:5000px;
+  background-color:darkcyan;
+  display:flex;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Projects{
+  margin:auto;
+  margin-top:500px;
+  height: 560px;
+  width: 1000px;
+  background-color: aliceblue;
+  border: 3px solid black;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.Directory{
+  height: 120px;
+  width: 900px;
+  margin:auto;
+  border: 3px solid black;
+  margin-bottom: 20px;
+  display:flex;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+#text{
+  margin-top: 40px;
+  margin-left: 20px;
+  font-size: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+#counter{
+  height: 20px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  display: inline-flex;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#counterbox{
+  width:130px;
+  margin-left:20px;
+}
+
+h1{
+  margin-left: 20px;
+}
+
+#quant{
+  width:100px;
+}
+
+#filled-basic{
+  width:100px;
+}
+
+#Check{
+  margin-left:30px;
+  width:100px;
+}
+
+#button{
+  margin-top:5px;
+  margin-bottom:5px;
+  height:50px;
+}
+#button2{
+  height:60px;
+  margin-top:30px;
+  margin-left:30px;
 }
